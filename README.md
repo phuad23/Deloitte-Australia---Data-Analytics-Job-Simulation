@@ -39,7 +39,8 @@ A datasets was given that was stored in JSON file and the Dataset is 3 in 1 data
  1. To determine which location did machine breaks the most, create a calculated measure field called "Unhealthy" with a value of 10 for every unhealthy status (representing 10 mins of potential down time since the previous message). The code to type in order to create the calculated measure field is an "IF statement that goes thus (IF [Status] = "Unhealthy" THEN 10 ELSE 0 END)".
 
 Then a bar chart was plotted called “Down Time per Factory” where a column  name "Factory" was plotted against the Sum(Unhealthy) which is the new column created. The bar chart can be seen below
+![Downtime per factory](https://github.com/user-attachments/assets/1ffe33f2-cf40-4ab7-ac90-e128b9030350)
 
 
- 3.  
- 4. 
+2. To determine the machines that broke most often in that location, plot another bar chart of device type on column against sum(unhealthy) on row on another sheet. 
+  
