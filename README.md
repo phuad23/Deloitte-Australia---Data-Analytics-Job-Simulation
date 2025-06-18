@@ -40,5 +40,6 @@ A datasets was given that was stored in JSON file and the Dataset is 3 in 1 data
 
 Then a bar chart was plotted called “Down Time per Factory” where a column  name "Factory" was plotted against the Sum(Unhealthy) which is the new column created. The bar chart can be seen below
 
+
  3.  
  4. 
